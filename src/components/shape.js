@@ -1,6 +1,8 @@
 // declare class
 class Shape{
-  let color="black";
+  constructor(){
+let color="black";
+}
 
   drawShape(){
 
