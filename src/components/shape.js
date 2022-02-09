@@ -1,7 +1,7 @@
 // declare class
 class Shape{
-  constructor(){
-let color="black";
+  get color(){
+return "black";
 }
 
   drawShape(){
