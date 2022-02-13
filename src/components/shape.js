@@ -1,7 +1,7 @@
 // declare class
 export class Shape{
-  constructor(color){
-    this.color=color
+  constructor(){
+    this.color="black";
   }
 
   drawShape(){
