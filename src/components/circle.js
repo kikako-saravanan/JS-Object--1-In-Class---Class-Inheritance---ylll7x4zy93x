@@ -2,6 +2,9 @@
 let Shape = require('./shape');
 // declare class
 export class Circle extends Shape{
+  constructor(){
+    super("black");
+  }
   calculateArea(){
 
   }
