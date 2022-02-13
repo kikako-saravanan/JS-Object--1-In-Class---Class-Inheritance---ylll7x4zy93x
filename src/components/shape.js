@@ -1,8 +1,8 @@
 // declare class
-class Shape{
-  get color(){
-return "black";
-}
+export class Shape{
+  constructor(color){
+    this.color=color
+  }
 
   drawShape(){
 
